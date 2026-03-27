@@ -1,0 +1,11 @@
+name: push_notification_manager
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  push_notification_manager_platform_interface:
+    path: ../push_notification_manager_platform_interface

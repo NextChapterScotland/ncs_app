@@ -1,0 +1,23 @@
+name: push_notification_manager_mobile
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  push_notification_manager_platform_interface:
+    path: ../push_notification_manager_platform_interface
+  firebase_messaging: ^14.0.0
+  flutter_local_notifications: ^17.0.0
+  firebase_core: ^2.32.0
+
+flutter:
+  plugin:
+    implements: push_notification_manager
+    platforms:
+      android:
+        dartPluginClass: PushNotificationManagerMobile
+      ios:
+        dartPluginClass: PushNotificationManagerMobile

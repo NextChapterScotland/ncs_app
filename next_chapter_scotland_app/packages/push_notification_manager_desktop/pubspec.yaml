@@ -1,0 +1,21 @@
+name: push_notification_manager_desktop
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  push_notification_manager_platform_interface:
+    path: ../push_notification_manager_platform_interface
+
+flutter:
+  plugin:
+    implements: push_notification_manager
+    platforms:
+      windows:
+        dartPluginClass: PushNotificationManagerDesktop
+      web:
+        pluginClass: PushNotificationManagerDesktopWeb
+        fileName: push_notification_manager_desktop_web.dart

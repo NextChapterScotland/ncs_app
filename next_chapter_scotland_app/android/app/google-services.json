@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "475499261996",
+    "project_id": "nextchapterscotlandapp",
+    "storage_bucket": "nextchapterscotlandapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475499261996:android:2e6c5be088771632ab6189",
+        "android_client_info": {
+          "package_name": "com.example.next_chapter_scotland_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQcPGrmKTI-YhQNpDkuQMo-CHSBp0zLx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475499261996:android:4b10fdb9d0c63d8dab6189",
+        "android_client_info": {
+          "package_name": "uk.org.nextchapterscotland.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQcPGrmKTI-YhQNpDkuQMo-CHSBp0zLx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
